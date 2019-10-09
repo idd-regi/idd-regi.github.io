@@ -1,6 +1,7 @@
 html {
 	background: darkslategray;
-
+	width: 100%;
+    height: 100%;
 }
 
 main {
