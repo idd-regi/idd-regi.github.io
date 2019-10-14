@@ -1,5 +1,5 @@
 html {
-	background: darkslategray;
+	background: #F8F8F8;
 	width: 100%;
 	height: 100%;
 	margin-block: 2em;
@@ -13,15 +13,71 @@ main {
 }
 
 h1, h2, h3 {
-	background-color: rgb(31, 65, 78);
+	color: rgb(192, 160, 99);
 	text-align: center;
 
 }
 
+.title {
+	color: #C5BCAB;
+    text-align: center;
+    font-style: normal;
+    font-size: 25px;
+    font-family: 'Open Sans', Calibri,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+    font-weight: bold;
+    padding: 10px 0 0;
+}
+
+.menudesc {
+    overflow: hidden;
+    padding: 10px;
+    margin: 5px;
+    line-height: 1em;
+    text-align: center;
+    color: #C5BCAB;
+    font-style: normal;
+    font-size: 9px;
+    font-family: 'Hind', Calibri,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 0px;
+}
+		/* not sure if i need this.....?
+		.container {
+			padding: 10px;
+			margin: 5px;
+		}
+
+		.posts {
+			width: 540px;
+			padding: 25px;
+			margin: 25px;
+			overflow: hidden;
+			margin-bottom: 90px;
+			letter-spacing: 0px;
+			word-spacing: 0px;
+			background-color: #FFFFFF;
+			text-align: justify;
+		}
+		*/
+
 img {
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-	max-width:100%;
-    object-fit: scale-down;
+	max-width: 33%;
+	float: left;
+	object-fit: scale-down;
+	align-items: center;
+}
+
+.column {
+  	width: 33.33%;
+  	padding: 5px;
+	float: left;
+
+}
+
+.header {
+	text-align: center;
 }
